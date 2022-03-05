@@ -1,0 +1,7 @@
+C:\Users\LENOVO\OneDrive\Documents\SharpDevelop Projects\ProjekUAS\ProjekUAS\bin\Debug\ProjekUAS.exe
+C:\Users\LENOVO\OneDrive\Documents\SharpDevelop Projects\ProjekUAS\ProjekUAS\bin\Debug\ProjekUAS.pdb
+C:\Users\LENOVO\OneDrive\Documents\SharpDevelop Projects\ProjekUAS\ProjekUAS\obj\Debug\ProjekUAS.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Documents\SharpDevelop Projects\ProjekUAS\ProjekUAS\obj\Debug\ProjekUAS.MainForm.resources
+C:\Users\LENOVO\OneDrive\Documents\SharpDevelop Projects\ProjekUAS\ProjekUAS\obj\Debug\ProjekUAS.csproj.GenerateResource.Cache
+C:\Users\LENOVO\OneDrive\Documents\SharpDevelop Projects\ProjekUAS\ProjekUAS\obj\Debug\ProjekUAS.exe
+C:\Users\LENOVO\OneDrive\Documents\SharpDevelop Projects\ProjekUAS\ProjekUAS\obj\Debug\ProjekUAS.pdb

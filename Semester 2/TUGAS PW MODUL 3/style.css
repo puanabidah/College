@@ -1,0 +1,235 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+	color: #505962;
+}
+
+.offset:before {
+	height: 3.9rem;
+	margin-top: -4rem;
+	content: "";
+	display: block;
+
+}
+
+/* navbar */
+.navbar { 
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: .9rem; /*1rem is equal to 16px*/
+	letter-spacing: .1rem;
+	background: rgba(0, 0, 0, .6)!important; /*000 utk black, and .6 is for transparancy and 
+	!important is for overwrite the background color that we gave it to our navigation already*/
+}
+
+.navbar-brand img{
+	height: 2rem; /*2 rem is equal to 32px*/
+
+}
+
+.navbar-nav li {
+	padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #1ebba3;
+}
+
+/* slider */
+.carousel-item {
+	height: 100vh; /*vh adalah vertical height, 100vh which make it 100% of the page*/	
+}
+
+
+.carousel-caption {
+	position: absolute;
+	top: 38%;
+	text-transform: uppercase;
+	width: 100%;
+	right: 0;
+	left: 0;
+}
+
+.carousel-caption h1 {
+	font-size: 3.8rem;
+	font-weight: 600;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black; /*horizontal vertikal, blur radius*/
+	padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+	font-size: 1.7rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+	border-width: 2.5px;
+	border-radius: 0.8rem;
+	font-size: 1.1rem;
+}
+
+
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+}
+
+.section-bg, .services .icon-box {
+  background-color: #f8f9fa;
+}
+
+.section-title h3 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 4px 10px;
+}
+
+
+.section-title h3::after {
+
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #556270;
+}
+
+/*About*/
+.container {
+	margin-top: 1rem;
+}
+.about .content h1 {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+
+.about .content h3 {
+	font-weight: 500;
+	line-height: 32px;
+	font-size: 24px;
+}
+
+.about .content ul li {
+	padding: 5px 0 0;
+}
+
+/*Team*/
+.card  {
+	margin: 1rem 2rem 2rem 2rem;
+}
+.title h2 {
+	font-size: 2rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 0.5rem;
+}
+.heading-underline {
+	width: 4rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin: 0 auto 1rem;
+}
+
+/*location*/
+.location {
+	padding-top: 6.5rem;
+}
+
+/* Contact*/
+footer {
+	background-color: #40474e;
+	color: white;
+	padding: 2rem 0 3rem;
+	margin-top: 6rem;
+}
+
+footer .logo {
+	height: 3rem;
+	margin: 1.5rem 0;
+}
+
+footer .ikon {
+		margin: 1.2rem .5rem 0 0;
+}
+
+hr.socket {
+		border-top: .2rem solid #666b71;
+		width: 100%;
+}
+
+/*.container .location {
+		margin-top: 3rem;
+}*/
+
+/*Media queries*/
+
+@media (max-width: 767px) {
+	.carousel-caption h1 {
+	font-size: 3.5rem;
+	letter-spacing: .15rem;
+	padding-bottom: .5rem;
+	}
+
+	.carousel-caption h3 {
+		font-size: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+
+	.btn-lg {
+		font-size: 1rem;
+	}
+
+	.about .content h1 {
+	
+	font-size: 30px;
+	line-height: 40px;
+	}
+
+	.about .content h3 {
+	
+	line-height: 25px;
+	font-size: 20px;
+	}
+
+}

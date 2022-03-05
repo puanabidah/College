@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"   
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:dbd="https://dbpedia.org/datatype/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <rdfs:Class rdf:about="https://en.wikipedia.org/wiki/Semantic_Web"/>
+    
+    <rdfs:Class rdf:about="Praktikum_SW">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Semantic_Web"/>
+    </rdfs:Class>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Semantic_Web"> 
+        <dc:title>Pemrograman Web Semantic 2</dc:title>
+        <dc:subject>ILK2213</dc:subject>
+        <dbo:name>Amalia (AML)</dbo:name>
+        <dbd:day>Senin</dbd:day>
+        <dbo:time>09.40 - 10.30</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Praktikum_SW">
+        <dc:title>Praktikum Pemrograman Semantic Web 2</dc:title>
+        <dc:subject>ILK2213P</dc:subject>
+        <dbo:name>Khairul Imam (KIM)</dbo:name>
+        <dbd:day>Senin</dbd:day>
+        <dbo:time>11.20 - 13.00</dbo:time>
+    </rdf:Description>
+
+    <rdfs:Class rdf:about="https://en.wikipedia.org/wiki/Category:Database_management_systems"/>
+    
+    <rdfs:Class rdf:about="Praktikum_SMDB">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Category:Database_management_systems"/>
+    </rdfs:Class>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Category:Database_management_systems">
+        <dc:title>Sistem Manajemen Database</dc:title>
+        <dc:subject>ILK2212</dc:subject>
+        <dbo:name>Elviwani</dbo:name>
+        <dbd:day>Senin</dbd:day>
+        <dbo:time>15.00 - 17.40</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Praktikum_SMDB">
+        <dc:title>Praktikum Sistem Manajemen Database</dc:title>
+        <dc:subject>ILK2211P</dc:subject>
+        <dbo:name>Ilma Sakinah (ISP)</dbo:name>
+        <dbd:day>Senin</dbd:day>
+        <dbo:time>11.20 - 13.00</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Professional_ethics"> 
+        <dc:title>Etika Profesi</dc:title>
+        <dc:subject>ILK4246</dc:subject>
+        <dbo:name>Zarlis (MZL)</dbo:name>
+        <dbd:day>Senin</dbd:day>
+        <dbo:time>13.00 - 14.40</dbo:time>
+    </rdf:Description>
+
+    <rdfs:Class rdf:about="https://en.wikipedia.org/wiki/Category:Algorithms_and_data_structures"/>
+
+    <rdfs:Class rdf:about="Praktikum_SDA">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Category:Algorithms_and_data_structures"/>
+    </rdfs:Class>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Category:Algorithms_and_data_structures"> 
+        <dc:title>Struktur Data dan Algoritma</dc:title>
+        <dc:subject>ILK2211</dc:subject>
+        <dbo:name>Zamzami (EMZ)</dbo:name>
+        <dbd:day>Selasa</dbd:day>
+        <dbo:time>08.00 - 10.30</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Praktikum_SDA">
+        <dc:title>Praktikum Struktur Data dan Algoritma</dc:title>
+        <dc:subject>ILK2212P</dc:subject>
+        <dbo:name>Timothy Fernando (TF)</dbo:name>
+        <dbd:day>Jumat</dbd:day>
+        <dbo:time>08.00 - 09.40</dbo:time>
+    </rdf:Description>
+
+    <rdfs:Class rdf:about="https://en.wikipedia.org/wiki/Object-oriented_programming"/>
+
+    <rdfs:Class rdf:about="Praktikum_PBO">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Object-oriented_programming"/>
+    </rdfs:Class>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Object-oriented_programming"> 
+        <dc:title>Pemrograman Berorientasi Objek (Java)</dc:title>
+        <dc:subject>ILK2210</dc:subject>
+        <dbo:name>Handrizal (HDL)</dbo:name>
+        <dbd:day>Selasa</dbd:day>
+        <dbo:time>10.30 - 13.00</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Praktikum_PBO">
+        <dc:title>Praktikum Pemrograman Berorientasi Objek (Java)</dc:title>
+        <dc:subject>ILK2210P</dc:subject>
+        <dbo:name>Wahyu F. Toldo (WTF)</dbo:name>
+        <dbd:day>Rabu</dbd:day>
+        <dbo:time>09.40 - 11.20</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction"> 
+        <dc:title>Interaksi Manusia dan Komputer</dc:title>
+        <dc:subject>ILK4248</dc:subject>
+        <dbo:name>Sri Melvani (SMH)</dbo:name>
+        <dbd:day>Rabu</dbd:day>
+        <dbo:time>12.10 - 13.50</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Entrepreneurship"> 
+        <dc:title>Kewirausahaan</dc:title>
+        <dc:subject>ILK2214</dc:subject>
+        <dbo:name>Fauzan (FZN)</dbo:name>
+        <dbd:day>Kamis</dbd:day>
+        <dbo:time>13.50 - 15.30</dbo:time>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Linear_algebra"> 
+        <dc:title>Ajabar Linear</dc:title>
+        <dc:subject>ILK2209</dc:subject>
+        <dbo:name>Syahril Effendi (SEF)</dbo:name>
+        <dbd:day>Jumat</dbd:day>
+        <dbo:time>09.40 - 12.10</dbo:time>
+    </rdf:Description>
+    
+</rdf:RDF>

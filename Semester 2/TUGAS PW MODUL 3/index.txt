@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+
+	<title>Nuno</title>
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+	<!-- awal Home -->
+	<div id="home">
+	
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index.html"><img src="img/nuno.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>	
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto"> <!-- meaning margin-left auto -->
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"  href="#team">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#location">Location</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul> 
+			</div>
+		</nav>
+
+		<!-- Start of Image Slider -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-interval="7000">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0 " class="active"></li> 
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li> 
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li> 
+			</ol>
+			<!-- awal carousel inner -->
+			<div class="carousel-inner" role="listbox">
+				<!-- slide 1 -->
+				<div class="carousel-item active" style="background-image: url(img/computers.png);">
+					<div class="carousel-caption text-center">
+						<h1>Welcome to Nuno</h1>
+						<h3>Where You Can Study Easily</h3>
+						<a class="btn btn-outline-light btn-lg" href="#course">Get Started</a>
+					</div>
+				</div>
+
+				<!-- slide 2 -->
+				<div class="carousel-item" style="background-image: url(img/computers-2.png);">
+					
+				</div>
+
+				<!-- slide 3 -->
+				<div class="carousel-item" style="background-image: url(img/computers-3.png);">
+					
+				</div>
+			</div> <!-- akhir carousel inner -->
+
+			<!-- prev dan next button -->
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a>
+		</div> <!-- akhir Image Slider -->
+	</div>
+	<!-- akhir Home -->
+
+	
+	<!-- awal about -->
+	<section id="about" class="about">
+		<div class="container">
+			<div class="row content">
+				<div class="col-lg-6">
+					<h1>Nuno Web Programming Course</h1>
+					<h3>Learn the Basics of HTML, CSS, and Javascript. These are the nuts and bolts of all website development that you’ll work with daily if you decide to build websites for a living.</h3>
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0">
+					<p>
+					Nuno partners with more than 200 leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide. We offer a range of learning opportunities—from hands-on projects and courses to job-ready certificates and degree programs.
+				    </p>
+					<ul>
+						<li>It’s still important to note that by learning the fundamentals</li>
+						<li>It’s still important to note that by learning the fundamentals</li>
+						<li>It’s still important to note that by learning the fundamentals</li>
+					</ul>
+					<p class="font-italic">
+						To learn the building blocks of web programming skills, we recommend learning in Nuno with the cupons here.
+					</p>
+					<div class="container">
+        				<div class="col-md-12 text-center">
+            				<a class="btn btn-secondary btn-md" href="https://w3newbie.com/courses" target="_blank">Course Coupons</a>
+        				</div>
+    				</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- awal team section-->
+	<div id="team" class="offset">
+		<div class="col-12 text-center title">
+				<h2>Team</h2>
+				<div class="heading-underline"></div>
+		</div>
+		<div class="row padding">
+			<div class="col-md-6"> <!-- because we re just only have 2 columns -->
+				<div class="card text-center">
+					<img class="card-img-top" src="img/team/team1.png">
+					<div class="card-body">
+						<h4>Jessica Miller</h4>
+						<p>"I have over 10 yearsof experience in technology and haven't worked with a better team than Nuno"</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6"> 
+				<div class="card text-center">
+					<img class="card-img-top" src="img/team/team2.png">
+					<div class="card-body">
+						<h4>Charles Davis</h4>
+						<p>"I have over 10 yearsof experience in technology and haven't worked with a better team than Nuno"</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+	<!-- akhir Team section-->
+
+	<!-- awal location -->
+	<div id="location" class="container location offset">
+		<div class="embed-responsive embed-responsive-16by9">
+	  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.490854866732!2d106.84913181468809!3d-6.198786462452131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f53703c62309%3A0xfe47f7182100a906!2sPerpustakaan%20Nasional%20RI!5e0!3m2!1sen!2sid!4v1619321919636!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	</div>
+	<!-- akhir location -->
+
+	<!-- awal footer section-->
+	<div id="contact" class="offset">
+		<footer>
+			<div class="row justify-content-center">
+				<div class="col-md-5 text-center">
+					<img class="logo" src="img/nuno.png">
+					<p>At our core is a collector of design development solutions that represent everything your businessneeds to compete in the modern marketplace.</p>
+					<strong>Contact Info</strong>
+					<p>(888) 888-8888 <br> email@nuno.com</p>
+
+					<a class="ikon" href="https://web.facebook.com/profile.php?id=100007666605125" target="_blank"><img src="img/facebook.svg" style="width: 30px"></a>
+					<a class="ikon" href="https://twitter.com/ramyeoonnn" target="_blank"><img src="img/twitter.svg" style="width: 30px"></a>
+					<a class="ikon" href="https://www.instagram.com/puanarash/" target="_blank"><img src="img/instagram.svg" style="width: 30px"></a>
+				</div>
+
+				<hr class="socket">
+				&copy; Nuno Course.
+			</div> <!-- end of row -->
+		</footer>
+	</div> <!-- Akhir footer section-->
+
+	
+
+	<!-- Script Source Files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="h\https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+
+</body>
+</html>

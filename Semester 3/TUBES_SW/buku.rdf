@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:wiki="https://en.wikipedia.org/wiki/"
+          >
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/pulang#">
+    <dc:title>Pulang</dc:title> 
+    <dc:creator>Tere Liye</dc:creator> 
+    <dc:publisher>Republika Penerbit</dc:publisher>
+    <wiki:category>Novel</wiki:category> 
+    <wiki:price>71.000</wiki:price>
+    <dc:description>Novel ini menceritakan kisah seorang anak laki-laki bernama Bujang yang tinggal di dasar rimba Sumatra bersama Samad dan Midah, kedua orang tuanya. </dc:description>
+</rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/the_soul_of_a_new_machina#">
+    <dc:title>The Soul of a New Machina</dc:title>
+    <dc:creator>Tracy Kidder</dc:creator>
+    <dc:publisher>Back Bay Book</dc:publisher>
+    <wiki:category>Non-Fiksi</wiki:category> 
+    <wiki:price>300.000</wiki:price>
+    <dc:description>Buku ini menceritakan pengalaman tim teknik komputer yang berlomba merancang komputer generasi berikutnya dengan kecepatan tinggi di bawah tekanan luar biasa.</dc:description>
+</rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/pursuit_of_happiness#">
+    <dc:title>Pursuit of Happiness</dc:title>
+    <dc:creator>Salma Hadid</dc:creator>
+    <dc:publisher>Bukune</dc:publisher>
+    <wiki:category>Fiksi</wiki:category> 
+    <wiki:price>99.000</wiki:price>
+    <dc:description>Pursuit of Happiness adalah novel fiksi tentang perjalanan band Enam Hari dan kelima member-nya: Seno, Jae, Willy, Brian, dan Dewa. </dc:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/laskar_pelangi#">
+    <dc:title>Laskar Pelangi</dc:title>
+    <dc:creator>Andrea Hirata</dc:creator>
+    <dc:publisher>Bentang Pustaka</dc:publisher>
+    <wiki:category>Novel</wiki:category> 
+    <wiki:price>110.000</wiki:price>
+    <dc:description>Laskar Pelangi merupakan novel perdana Andrea Hirata yang bercerita mengenai kehidupan 10 anak di Desa Gantung, Kabupaten Gantung, Belitung Timur.</dc:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/awaken_the_giant_within#">
+    <dc:title>Awaken The Giant Within</dc:title>
+    <dc:creator>Awaken The Giant Within</dc:creator>
+    <dc:publisher>Phoenix</dc:publisher>
+    <wiki:category>Inspirasional</wiki:category> 
+    <wiki:price>150.000</wiki:price>
+    <dc:description>Anthony Robbins, pencetus puncak performa diri, menunjukkan strateginya yang terefektif dan teknik untuk menguasai diri Anda, tubuh Anda, emosi Anda, hubungan Anda, keuangan Anda, bahkan segala sendi dari kehidupan Anda. Semua itu tersedia dalam buku ini hanya dengan satu tujuan. TEMUKAN TUJUAN SEJATI ANDA.</dc:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/diandra#">
+    <dc:title>Diandra</dc:title>
+    <dc:creator>Kumiskom</dc:creator>
+    <dc:publisher>Laksana</dc:publisher>
+    <wiki:category>Novel</wiki:category> 
+    <wiki:price>94.200</wiki:price>
+    <dc:description>Aku berpikir semua laki-laki sama saja. Aku tidak pernah memercayai makhluk itu, mengingat namanya saat berkenalan, bahkan jatuh cinta dan menjadi teman spesial untuk merajut masa depan.</dc:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/forever_with_you#">
+    <dc:title>Forever With You</dc:title>
+    <dc:creator>Ria N. Badaria</dc:creator>
+    <dc:publisher>Gammedia Pustaka Utama</dc:publisher>
+    <wiki:category>Novel Romansa</wiki:category> 
+    <wiki:price>80.000</wiki:price>
+    <dc:description>Bagi Liana Hanjaya, jatuh cinta sama mudahnya seperti berganti model rambut. Dia terlalu mudah dan terlalu sering jatuh cinta pada laki-laki yang salah.</dc:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/the_time_traveler's_wife#">
+    <dc:title>The Time Traveler's Wife</dc:title>
+    <dc:creator>Audrey</dc:creator>
+    <dc:publisher>Nasional Best Selle</dc:publisher>
+    <wiki:category>Novel Romansa</wiki:category> 
+    <wiki:price>40.000</wiki:price>
+    <dc:description>A funny, often poignant tale of boy meets girl with a twist: what if one of them couldn't stop slipping in and out of time? Highly original and imaginative, this debut novel raises questions about life, love, and the effects of time on relationships.</dc:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.wikipedia.com/novel/the_traveler's_wife_tias#">
+    <dc:title>The Traveler's Wife Tias</dc:title>
+    <dc:creator>Tias Tatanka</dc:creator>
+    <dc:publisher>Salsabila</dc:publisher>
+    <wiki:category>Travel Note - Jurnalisme Sastrawi</wiki:category> 
+    <wiki:price>90.000</wiki:price>
+    <dc:description>Siapa tak senang berlibur? Bahkan orang-orang yang senang mengumbar emosi negatif, sering disebut 'Kurang Piknik'. </dc:description>
+  </rdf:Description>
+
+</rdf:RDF>

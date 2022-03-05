@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wiki="http://en.wikipedia.org/wiki/"
+    xmlns:schema="http://schema.org/">
+
+ 
+    <dbo:Artist rdf:about="https://en.wikipedia.org/wiki/Taylor_Swift">
+        <rdfs:label>Taylor Swift</rdfs:label>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-12-13</schema:birthDate>
+        <dbo:birthPlace>West Reading</dbo:birthPlace>
+        <wiki:nationality>American</wiki:nationality>
+        <wiki:profession>Singer and Song Writer</wiki:profession>
+        <dc:type>Country, Pop, Rock, Folk, Alternative</dc:type>
+        <schema:MusicAlbum>Folklore, Red (Taylor's Version), Fearless (Taylor's Version), Evermore </schema:MusicAlbum>
+    </dbo:Artist>
+
+    <schema:MusicAlbum rdf:about="https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album)">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Taylor_Swift"/>
+        <rdfs:label>Folklore</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-24</dc:date>
+        <dc:publisher>Republic</dc:publisher>
+        <dc:type>Indie folk, alternative rock, electro-folk</dc:type>
+        <dbo:single>Cardigan, Exile, Betty,The 1</dbo:single>
+    </schema:MusicAlbum>
+
+    <schema:MusicAlbum rdf:about="https://en.wikipedia.org/wiki/Red_(Taylor%27s_Version)">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Taylor_Swift"/>
+        <rdfs:label>Red (Taylor's Version)</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-11-12</dc:date>
+        <dc:publisher>Republic</dc:publisher>
+        <dc:type>Pop, Country</dc:type>
+        <dbo:single>I Bet You Think About Me</dbo:single>
+    </schema:MusicAlbum>
+
+    <schema:MusicAlbum rdf:about="https://en.wikipedia.org/wiki/Fearless_(Taylor%27s_Version)">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Taylor_Swift"/>
+        <rdfs:label>Fearless (Taylor's Version)</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-09</dc:date>
+        <dc:publisher>Republic</dc:publisher>
+        <dc:type>Pop, Country</dc:type>
+        <dbo:single>Love Story (Taylor's Version), Mr. Perfectly Fine</dbo:single>
+    </schema:MusicAlbum>
+
+    <schema:MusicAlbum rdf:about="https://en.wikipedia.org/wiki/Evermore_(Taylor_Swift_album)">
+        <rdfs:subClassOf rdf:resource="https://en.wikipedia.org/wiki/Taylor_Swift"/>
+        <rdfs:label>Evermore</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-11</dc:date>
+        <dc:publisher>Republic</dc:publisher>
+        <dc:type>Alternative rock, folk-pop, chamber rock</dc:type>
+        <dbo:single>Willow, No Body, No Crime, Coney Island</dbo:single>
+    </schema:MusicAlbum>
+
+    
+</rdf:RDF>
